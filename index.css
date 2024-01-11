@@ -28,7 +28,7 @@ div{
     justify-content: space-around;
     border: 3px;
     border-radius: 10px;
-    background: #73734b;
+    background: linear-gradient(to bottom right, #73734b, #999969 );
 }
 img{
     width: 300px;
@@ -42,14 +42,17 @@ img{
 .img1,.img2,.img3{
     width: 120px;
     height: 80px;
+    margin: 0 0 20px 0;
+    border-radius: 20px;
 }
 
 .fasad,.izol,.vnutra{
     width: 200px;
-    padding: 5px;
+    height: 300px;
+    padding: 40px;
     border: 3px;
     border-radius: 10px;
-    background: lightgray;
+    background: linear-gradient(to bottom right, #73734b, #fff );
 }
 .img4,.img5,.img6,.img7{
     width: 50%;
@@ -59,8 +62,21 @@ img{
         display: flex;
         flex-wrap: wrap;
 }
-
-
+.contact{
+    color: #fff;
+}
+.mail{
+    text-decoration: none;
+    color: #86865a;
+}
+footer{
+    height: 200px;
+    background: #151200;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
 
 
