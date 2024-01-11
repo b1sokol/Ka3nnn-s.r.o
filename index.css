@@ -1,0 +1,68 @@
+body{
+    padding: 15px;
+    background: #999969;
+}
+.basic{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    background: linear-gradient(to bottom right, #3b391e, #86865a );
+    border-radius: 15px;
+}
+.company{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.menubtn{
+    margin: 15px;
+    text-decoration: none;
+    color: #000;
+}
+div{
+    margin: 10px;
+}
+.onas{
+    align-self: center;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    border: 3px;
+    border-radius: 10px;
+    background: #73734b;
+}
+img{
+    width: 300px;
+    height: 200px;
+}
+.sluzhby{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.img1,.img2,.img3{
+    width: 120px;
+    height: 80px;
+}
+
+.fasad,.izol,.vnutra{
+    width: 200px;
+    padding: 5px;
+    border: 3px;
+    border-radius: 10px;
+    background: lightgray;
+}
+.img4,.img5,.img6,.img7{
+    width: 50%;
+    height: 50%;
+}
+.over{
+        display: flex;
+        flex-wrap: wrap;
+}
+
+
+
+
+
+
+
