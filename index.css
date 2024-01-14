@@ -1,4 +1,4 @@
-body{
+html,body{
     padding: 15px;
     background: #999969;
 }
@@ -57,6 +57,17 @@ img{
 .img4,.img5,.img6,.img7{
     width: 50%;
     height: 50%;
+}
+.skonchene{
+    background: linear-gradient(to bottom right, #73734b, #fff );
+    padding: 20px;
+    border-radius: 20px;
+}
+.knizhnica,.dom,.banka{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 15px;
 }
 .over{
         display: flex;
